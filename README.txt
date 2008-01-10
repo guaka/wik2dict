@@ -5,6 +5,13 @@ Public License.
 It uses dictdlib.
 
 
+Usage
+=====
+
+* Download an XML database dump at download.wikimedia.org
+* Run wik2ict your-dump.xml
+
+
 
 History
 =======
@@ -17,6 +24,8 @@ It was started by Kasper Souren in 2004, and it was working fine. In
 TODO
 ====
 
-* setup.py
+* create setup.py (and add to PEAK)
 * fix bugs
 * automatic downloading
+* automatic unpacking (bzip2 -d)
+(last 2 things were working with the old version that processed SQL dumps)
