@@ -27,5 +27,3 @@ TODO
 * create setup.py (and add to PEAK)
 * fix bugs
 * automatic downloading
-* automatic unpacking (bzip2 -d)
-(last 2 things were working with the old version that processed SQL dumps)
